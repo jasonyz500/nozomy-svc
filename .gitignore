@@ -1,0 +1,4 @@
+node_modules
+test
+**/config.prod.js
+**/config.staging.js
