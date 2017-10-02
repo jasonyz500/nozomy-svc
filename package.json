@@ -4,7 +4,7 @@
   "description": "Web service for nozomy app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --harmony-async-await lib/server",
+    "start": "NOZOMY_ENV=prod nodemon lib/server",
     "test": "lab --coverage --verbose"
   },
   "author": "Jason Zhou",
